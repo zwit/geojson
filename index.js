@@ -1,29 +1,36 @@
-export * from 'src/chineseDynasties';
-export * from 'src/empires';
-export * from 'src/geo';
-export * from 'src/pleiades';
-export * from 'src/pleiadesPoints';
-export * from 'src/romanEmpire';
-export * from 'src/geoFeatures';
-export * from 'src/geoWorld0';
-export * from 'src/geoWorld200bc';
-export * from 'src/geoWorld323bc';
-export * from 'src/geoWorld400';
-export * from 'src/geoWorld500bc';
-export * from 'src/geoWorld600';
-export * from 'src/geoWorld800';
-export * from 'src/geoWorld1000';
-export * from 'src/geoWorld1000bc';
-export * from 'src/geoWorld1279';
-export * from 'src/geoWorld1492';
-export * from 'src/geoWorld1530';
-export * from 'src/geoWorld1650';
-export * from 'src/geoWorld1715';
-export * from 'src/geoWorld1783';
-export * from 'src/geoWorld1815';
-export * from 'src/geoWorld1880';
-export * from 'src/geoWorld1914';
-export * from 'src/geoWorld1920';
-export * from 'src/geoWorld1938';
-export * from 'src/geoWorld1945';
-export * from 'src/geoWorld1994';
+export * from 'src/chineseDynasties.js';
+export * from 'src/empires.js';
+export * from 'src/romanEmpire.js';
+export * from 'src/geoFeatures.js';
+export * from 'src/geoWorld0.js';
+export * from 'src/geoWorld200bc.js';
+export * from 'src/geoWorld323bc.js';
+export * from 'src/geoWorld400.js';
+export * from 'src/geoWorld500bc.js';
+export * from 'src/geoWorld600.js';
+export * from 'src/geoWorld800.js';
+export * from 'src/geoWorld1000.js';
+export * from 'src/geoWorld1000bc.js';
+export * from 'src/geoWorld1279.js';
+export * from 'src/geoWorld1492.js';
+export * from 'src/geoWorld1530.js';
+export * from 'src/geoWorld1650.js';
+export * from 'src/geoWorld1715.js';
+export * from 'src/geoWorld1783.js';
+export * from 'src/geoWorld1815.js';
+export * from 'src/geoWorld1880.js';
+export * from 'src/geoWorld1914.js';
+export * from 'src/geoWorld1920.js';
+export * from 'src/geoWorld1938.js';
+export * from 'src/geoWorld1945.js';
+export * from 'src/geoWorld1994.js';
+
+const geoWorld = require('src/geo.json');
+const pleiades = require('src/pleiades.json');
+const pleiadesPoints = require('src/pleiadesPoints.json');
+
+export {
+  geoWorld,
+  pleiades,
+  pleiadesPoints,
+}
