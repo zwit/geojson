@@ -1,5 +1,9 @@
 # geojson
 
+## Info
+
+See src for files included
+
 ## Sources
 
 - http://worldmap.harvard.edu/
