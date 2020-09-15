@@ -1,6 +1,6 @@
-export * from 'src/chineseDynasties.js');
-export * from 'src/empires.js');
-export * from 'src/romanEmpire.js');
+export * from 'src/chineseDynasties.js';
+export * from 'src/empires.js';
+export * from 'src/romanEmpire.js';
 
 const franceFeatures = require('src/franceFeatures.geojson');
 const geoWorld0 = require('src/geoWorld0.geojson');
