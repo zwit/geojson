@@ -25,9 +25,9 @@ export * from 'src/geoWorld1938.js';
 export * from 'src/geoWorld1945.js';
 export * from 'src/geoWorld1994.js';
 
-const geoWorld = require('src/geo.json');
-const pleiades = require('src/pleiades.json');
-const pleiadesPoints = require('src/pleiadesPoints.json');
+const geoWorld = require('src/geoWorld.geojson');
+const pleiades = require('src/pleiades.geojson');
+const pleiadesPoints = require('src/pleiadesPoints.geojson');
 
 export {
   geoWorld,
