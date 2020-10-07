@@ -1,6 +1,60 @@
-export * from 'src/chineseDynasties.js';
-export * from 'src/empires.js';
-export * from 'src/romanEmpire.js';
+import { 
+  qinDynasty209,
+  qinDynasty223,
+  qingDynasty,
+  mingDynasty1389,
+  mingDynasty1582,
+  hanDynasty202,
+  hanDynasty109,
+  hanDynasty82,
+  songDynasty,
+  shangDynasty,
+  zhouDynasty,
+  xiaDynasty,
+  tangDynasty
+} from 'src/chineseDynasties.js';
+
+import {
+  timuridEmpire,
+  minoans,
+  mauryanEmpire,
+  phoenicians,
+  neoAssyrian,
+  neoAssyrianPostPileser,
+  peakNeoAssyrian,
+  assyrian,
+  guptaEmpire,
+  songhaiEmpire,
+  delhiSultanate,
+  babylonians,
+  hittites,
+  inca,
+  maya,
+  persian,
+  goldenHordeMongol,
+  alexander,
+  sumerian,
+  delianLeague,
+  abbasidCaliphate,
+  mongolIlkhanate,
+  mongolYuan,
+  mongolChagadai,
+  holyRomanEmpire,
+  aztec,
+  ancienEgypt,
+  maliEmpire,
+  umayyadCaliphate,
+  ghanaEmpire,
+  byzantine555
+} from 'src/empires.js';
+
+import {
+  romanEmpire60BCE,
+  romanEmpire14CE,
+  romanEmpire69CE,
+  romanEmpire117CE,
+  romanEmpire200CE
+} from 'src/romanEmpire.js';
 
 import franceFeatures from 'src/franceFeatures.geojson';
 import geoWorld0 from 'src/geoWorld0.geojson';
@@ -54,6 +108,59 @@ export {
   geoWorld1945,
   geoWorld1994,
   geoWorld,
+
   pleiades,
   pleiadesPoints,
+
+  timuridEmpire,
+  minoans,
+  mauryanEmpire,
+  phoenicians,
+  neoAssyrian,
+  neoAssyrianPostPileser,
+  peakNeoAssyrian,
+  assyrian,
+  guptaEmpire,
+  songhaiEmpire,
+  delhiSultanate,
+  babylonians,
+  hittites,
+  inca,
+  maya,
+  persian,
+  goldenHordeMongol,
+  alexander,
+  sumerian,
+  delianLeague,
+  abbasidCaliphate,
+  mongolIlkhanate,
+  mongolYuan,
+  mongolChagadai,
+  holyRomanEmpire,
+  aztec,
+  ancienEgypt,
+  maliEmpire,
+  umayyadCaliphate,
+  ghanaEmpire,
+  byzantine555,
+
+  romanEmpire60BCE,
+  romanEmpire14CE,
+  romanEmpire69CE,
+  romanEmpire117CE,
+  romanEmpire200CE,
+
+  qinDynasty209,
+  qinDynasty223,
+  qingDynasty,
+  mingDynasty1389,
+  mingDynasty1582,
+  hanDynasty202,
+  hanDynasty109,
+  hanDynasty82,
+  songDynasty,
+  shangDynasty,
+  zhouDynasty,
+  xiaDynasty,
+  tangDynasty
 }

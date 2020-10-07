@@ -1,6 +1,6 @@
 {
   "name": "@zwit/geojson",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "repository": {
@@ -25,5 +25,9 @@
   },
   "files": [
     "dist"
+  ],
+  "devDependencies": {},
+  "keywords": [
+    "geojson"
   ]
 }
