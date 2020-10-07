@@ -12,7 +12,7 @@ import {
   zhouDynasty,
   xiaDynasty,
   tangDynasty
-} from 'src/chineseDynasties.js';
+} from 'src/chineseDynasties';
 
 import {
   timuridEmpire,
@@ -46,7 +46,7 @@ import {
   umayyadCaliphate,
   ghanaEmpire,
   byzantine555
-} from 'src/empires.js';
+} from 'src/empires';
 
 import {
   romanEmpire60BCE,
@@ -54,7 +54,7 @@ import {
   romanEmpire69CE,
   romanEmpire117CE,
   romanEmpire200CE
-} from 'src/romanEmpire.js';
+} from 'src/romanEmpire';
 
 import franceFeatures from 'src/franceFeatures.geojson';
 import geoWorld0 from 'src/geoWorld0.geojson';
@@ -66,6 +66,7 @@ import geoWorld600 from 'src/geoWorld600.geojson';
 import geoWorld800 from 'src/geoWorld800.geojson';
 import geoWorld1000 from 'src/geoWorld1000.geojson';
 import geoWorld1000bc from 'src/geoWorld1000bc.geojson';
+import geoWorld2000bc from 'src/geoWorld2000bc.geojson';
 import geoWorld1279 from 'src/geoWorld1279.geojson';
 import geoWorld1492 from 'src/geoWorld1492.geojson';
 import geoWorld1530 from 'src/geoWorld1530.geojson';
@@ -94,6 +95,7 @@ export {
   geoWorld800,
   geoWorld1000,
   geoWorld1000bc,
+  geoWorld2000bc,
   geoWorld1279,
   geoWorld1492,
   geoWorld1530,
