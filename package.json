@@ -1,9 +1,29 @@
 {
-  "name": "geojson",
+  "name": "@zwit/geojson",
   "version": "1.0.3",
-  "main": "index.js",
-  "repository": "https://github.com/zwit/geojson.git",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwit/geojson.git"
+  },
   "author": "zwit",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "description": "## Sources",
+  "bugs": {
+    "url": "https://github.com/zwit/geojson/issues"
+  },
+  "homepage": "https://github.com/zwit/geojson#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {
+    "rollup": "^2.28.2"
+  },
+  "files": [
+    "dist"
+  ]
 }
