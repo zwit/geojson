@@ -56,33 +56,33 @@ import {
   romanEmpire200CE
 } from './src/romanEmpire';
 
-import franceFeatures from 'src/franceFeatures.geojson';
-import geoWorld0 from 'src/geoWorld0.geojson';
-import geoWorld200bc from 'src/geoWorld200bc.geojson';
-import geoWorld323bc from 'src/geoWorld323bc.geojson';
-import geoWorld400 from 'src/geoWorld400.geojson';
-import geoWorld500bc from 'src/geoWorld500bc.geojson';
-import geoWorld600 from 'src/geoWorld600.geojson';
-import geoWorld800 from 'src/geoWorld800.geojson';
-import geoWorld1000 from 'src/geoWorld1000.geojson';
-import geoWorld1000bc from 'src/geoWorld1000bc.geojson';
-import geoWorld2000bc from 'src/geoWorld2000bc.geojson';
-import geoWorld1279 from 'src/geoWorld1279.geojson';
-import geoWorld1492 from 'src/geoWorld1492.geojson';
-import geoWorld1530 from 'src/geoWorld1530.geojson';
-import geoWorld1650 from 'src/geoWorld1650.geojson';
-import geoWorld1715 from 'src/geoWorld1715.geojson';
-import geoWorld1783 from 'src/geoWorld1783.geojson';
-import geoWorld1815 from 'src/geoWorld1815.geojson';
-import geoWorld1880 from 'src/geoWorld1880.geojson';
-import geoWorld1914 from 'src/geoWorld1914.geojson';
-import geoWorld1920 from 'src/geoWorld1920.geojson';
-import geoWorld1938 from 'src/geoWorld1938.geojson';
-import geoWorld1945 from 'src/geoWorld1945.geojson';
-import geoWorld1994 from 'src/geoWorld1994.geojson';
-import geoWorld from 'src/geoWorld.geojson';
-import pleiades from 'src/pleiades.geojson';
-import pleiadesPoints from 'src/pleiadesPoints.geojson';
+import franceFeatures from './src/franceFeature.json';
+import geoWorld0 from './src/geoWorld0.json';
+import geoWorld200bc from './src/geoWorld200bc.json';
+import geoWorld323bc from './src/geoWorld323bc.json';
+import geoWorld400 from './src/geoWorld400.json';
+import geoWorld500bc from './src/geoWorld500bc.json';
+import geoWorld600 from './src/geoWorld600.json';
+import geoWorld800 from './src/geoWorld800.json';
+import geoWorld1000 from './src/geoWorld1000.json';
+import geoWorld1000bc from './src/geoWorld1000bc.json';
+import geoWorld2000bc from './src/geoWorld2000bc.json';
+import geoWorld1279 from './src/geoWorld1279.json';
+import geoWorld1492 from './src/geoWorld1492.json';
+import geoWorld1530 from './src/geoWorld1530.json';
+import geoWorld1650 from './src/geoWorld1650.json';
+import geoWorld1715 from './src/geoWorld1715.json';
+import geoWorld1783 from './src/geoWorld1783.json';
+import geoWorld1815 from './src/geoWorld1815.json';
+import geoWorld1880 from './src/geoWorld1880.json';
+import geoWorld1914 from './src/geoWorld1914.json';
+import geoWorld1920 from './src/geoWorld1920.json';
+import geoWorld1938 from './src/geoWorld1938.json';
+import geoWorld1945 from './src/geoWorld1945.json';
+import geoWorld1994 from './src/geoWorld1994.json';
+import geoWorld from './src/geoWorld.json';
+import pleiades from './src/pleiades.json';
+import pleiadesPoints from './src/pleiadesPoints.json';
 
 export {
   franceFeatures,

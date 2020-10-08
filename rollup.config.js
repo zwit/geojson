@@ -1,4 +1,5 @@
-import pkg from './package.json'
+import pkg from './package.json';
+import json from '@rollup/plugin-json';
 
 export default {
   input: 'index.js',
@@ -14,4 +15,7 @@ export default {
       sourcemap: true
     }
   ],
+  plugins: [
+    json()
+  ]
 }

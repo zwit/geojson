@@ -1,4 +1,4 @@
-export const geoWorld1920 = {
+{
   "type": "FeatureCollection",
   "name": "world_1920",
   "properties": { "from": 1920, "to": 1937 },
