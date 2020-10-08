@@ -1,8 +1,6 @@
 {
   "name": "@zwit/geojson",
   "version": "1.0.8",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zwit/geojson.git"
@@ -16,17 +14,9 @@
   },
   "homepage": "https://github.com/zwit/geojson#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c",
-    "start": "rollup -c -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@rollup/plugin-json": "^4.1.0",
-    "rollup": "^2.28.2"
-  },
-  "files": [
-    "dist"
-  ],
+  "dependencies": {},
   "devDependencies": {},
   "keywords": [
     "geojson"
