@@ -12,7 +12,7 @@ import {
   zhouDynasty,
   xiaDynasty,
   tangDynasty
-} from 'src/chineseDynasties';
+} from './src/chineseDynasties';
 
 import {
   timuridEmpire,
@@ -46,7 +46,7 @@ import {
   umayyadCaliphate,
   ghanaEmpire,
   byzantine555
-} from 'src/empires';
+} from './src/empires';
 
 import {
   romanEmpire60BCE,
@@ -54,7 +54,7 @@ import {
   romanEmpire69CE,
   romanEmpire117CE,
   romanEmpire200CE
-} from 'src/romanEmpire';
+} from './src/romanEmpire';
 
 import franceFeatures from 'src/franceFeatures.geojson';
 import geoWorld0 from 'src/geoWorld0.geojson';
